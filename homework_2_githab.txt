@@ -1,6 +1,6 @@
 GitHub.HW_2
 
-1. Íà ëîêàëüíîì ðåïîçèòîðèè ñäåëàòü âåòêè äëÿ:
+1. ÐÐ° Ð»Ð¾ÐºÐ°Ð»ÑŒÐ½Ð¾Ð¼ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¸ ÑÐ´ÐµÐ»Ð°Ñ‚ÑŒ Ð²ÐµÑ‚ÐºÐ¸ Ð´Ð»Ñ:
 - Postman        --> git branch Postman
 - Jmeter         --> git Jmeter
 - CheckLists     --> git CheckLists
@@ -9,9 +9,9 @@ GitHub.HW_2
 - Charles        --> git Charles
 - Mobile testing --> git Mobile_testing
 
-2. Çàïóøèòü âñå âåòêè íà âíåøíèé ðåïîçèòîðèé --> git push origin --all
+2. Ð—Ð°Ð¿ÑƒÑˆÐ¸Ñ‚ÑŒ Ð²ÑÐµ Ð²ÐµÑ‚ÐºÐ¸ Ð½Ð° Ð²Ð½ÐµÑˆÐ½Ð¸Ð¹ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¹ --> git push origin --all
 
-3. Â âåòêå Bag Reports ñäåëàòü òåêñòîâûé äîêóìåíò ñî ñòðóêòóðîé áàã ðåïîðòà -->
+3. Ð’ Ð²ÐµÑ‚ÐºÐµ Bag Reports ÑÐ´ÐµÐ»Ð°Ñ‚ÑŒ Ñ‚ÐµÐºÑÑ‚Ð¾Ð²Ñ‹Ð¹ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚ ÑÐ¾ ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð¾Ð¹ Ð±Ð°Ð³ Ñ€ÐµÐ¿Ð¾Ñ€Ñ‚Ð° -->
   
 --> git checkout BagReports --> cat > bag_reports.txt --> vim bag_reports.txt -->
 
@@ -28,19 +28,20 @@ GitHub.HW_2
 
 
 
-4. Çàïóøèòü ñòðóêòóðó áàãðåïîðòà íà âíåøíèé ðåïîçèòîðèé --> git add . -->  git commit -m "bag_reports" -->
+4. Ð—Ð°Ð¿ÑƒÑˆÐ¸Ñ‚ÑŒ ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ñƒ Ð±Ð°Ð³Ñ€ÐµÐ¿Ð¾Ñ€Ñ‚Ð° Ð½Ð° Ð²Ð½ÐµÑˆÐ½Ð¸Ð¹ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¹ --> git add . -->  git commit -m "bag_reports" -->
 --> git push -u origin BagReports
 
 
-5. Âìåðæèòü âåòêó Bag Reports â Main --> git checkout main --> git merge BagReports
+5. Ð’Ð¼ÐµÑ€Ð¶Ð¸Ñ‚ÑŒ Ð²ÐµÑ‚ÐºÑƒ Bag Reports Ð² Main --> git checkout main --> git merge BagReports
 
 
-6. Çàïóøèòü main íà âíåøíèé ðåïîçèòîðèé. --> git add . --> git push -u origin main
+6. Ð—Ð°Ð¿ÑƒÑˆÐ¸Ñ‚ÑŒ main Ð½Ð° Ð²Ð½ÐµÑˆÐ½Ð¸Ð¹ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¹. --> git add . --> git push -u origin main
 
-7. Â âåòêå CheckLists íàáðîñàòü ñòðóêòóðó ÷åê ëèñòà. --> git checkout Checklists --> vim cl.txt -->  { "checklist" : "structure" }
+7. Ð’ Ð²ÐµÑ‚ÐºÐµ CheckLists Ð½Ð°Ð±Ñ€Ð¾ÑÐ°Ñ‚ÑŒ ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ñƒ Ñ‡ÐµÐº Ð»Ð¸ÑÑ‚Ð°. --> git checkout Checklists --> vim cl.txt -->  { "checklist" : "structure" }
 
-8. Çàïóøèòü ñòðóêòóðó íà âíåøíèé ðåïîçèòîðèé --> git push -u origin Checklists
+8. Ð—Ð°Ð¿ÑƒÑˆÐ¸Ñ‚ÑŒ ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ñƒ Ð½Ð° Ð²Ð½ÐµÑˆÐ½Ð¸Ð¹ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¹ --> git push -u origin Checklists
 
-9. Íà âíåøíåì ðåïîçèòîðèè ñäåëàòü Pull Request âåòêè CheckLists â main --> Compare & pull request 
+9. ÐÐ° Ð²Ð½ÐµÑˆÐ½ÐµÐ¼ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¸ ÑÐ´ÐµÐ»Ð°Ñ‚ÑŒ Pull Request Ð²ÐµÑ‚ÐºÐ¸ CheckLists Ð² main --> Compare & pull request 
 
-10. Ñèíõðîíèçèðîâàòü Âíåøíþþ è Ëîêàëüíóþ âåòêè Main --> git fetch --> git pull
+10. Ð¡Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð’Ð½ÐµÑˆÐ½ÑŽÑŽ Ð¸ Ð›Ð¾ÐºÐ°Ð»ÑŒÐ½ÑƒÑŽ Ð²ÐµÑ‚ÐºÐ¸ Main --> git fetch --> git pull
+
