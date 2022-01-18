@@ -203,7 +203,14 @@ TXT
 
  9. Создать файл preferences.txt == touch preferences.txt
 
- 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT. == vim preferences.txt == { "muvie" : "terminator", "favorite TV series" : "supernatural", "favorite food" :"plov", "favorite time of the year" : "winter", "the party you would like to visit" : "Moldova"}
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить)
+
+ в формате TXT. == vim preferences.txt --> 1)muvie-terminator
+                                           2)favorite TV series - supernatural
+                                           3)favorite food - plov
+                                           4)favorite time of the year - winter
+                                           5)the party you would like to visit - Moldova
+
 
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT == touch sklls.txt --> vim sklls.txt --> 1)Hard Skilss
                                                                                                                                                 2)Soft skills
