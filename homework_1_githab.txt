@@ -16,11 +16,6 @@ GIT Homework 1
 
 
 
-
-
-
-
-
 JSON
 
 
@@ -40,8 +35,6 @@ JSON
 
  9. Отправить файл на внешний GitHub репозиторий. == git push
 
-
-
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
 
  Всё написать в формате JSON.== vim new.json --> {"FIO" : "mMikhalutsa Ivan Georgievic",
@@ -53,7 +46,6 @@ JSON
  11. Отправить изменения на внешний репозиторий.== git add . -->  git commit -m "qwerty" --> git push
 
  12. Создать файл preferences.json == touch preferences.json
-
 
  13. В файл preferences.json добавить информацию о своих предпочтениях 
 
@@ -70,7 +62,6 @@ JSON
 
  в формате JSON == touch sklls.json --> vim sklls.json --> { "skill" : "soft",
                                                              "skill" : "hard"}
-
 
 
  15. Отправить сразу 2 файла на внешний репозиторий. == git add . --> git commit -m 'sklls.json' --> git commit -m 'preferences.json' --> git add . --> git push
@@ -95,7 +86,6 @@ JSON
                                               "Attachment":"http://prntser.com/k905cq" }
 
 
-
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.== git add . --> git commit -m 'bug_report.json'
 
  20. Синхронизировать внешний и локальный репозиторий JSON == git pull
@@ -112,7 +102,6 @@ XML
                                                       нажать кнопку "New" -->
                                                       задать имя и выставить необходимые настройки --> 
                                                       нажать  "Creat repository
-
 
  22. Клонировать репозиторий XML на локальный компьютер.== git clone https://github.com/ivanmihalutsa/XML.git
 
@@ -133,7 +122,6 @@ XML
                                                      <salary>400</salary>
                                                </user>
 
-
  28. Отправить изменения на внешний репозиторий. == git commit -m "add  new.xml fail" --> git add .--> git push
 
  29. Создать файл preferences.xml == touch preferences.xml
@@ -147,8 +135,6 @@ XML
                                                 <favorite time of the year>winter<favorite time of the year>
                                                 <the party you would like to visit>Moldova<the party you would like to visit>
                                           </users>
-
-
 
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML == touch sklls.xml --> vim sklls.xm --> <users>
                                                                                                                                                      <skills>Hard skils<skills>
