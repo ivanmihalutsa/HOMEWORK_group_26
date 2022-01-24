@@ -72,7 +72,7 @@ JSON
 
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт
 
- в формате JSON. == vim bug_report.json --> { "Summary":"Login: Error messages in the login form are displayed in English",
+ в формате JSON. == vim bug_report.json -->  { "Summary":"Login: Error messages in the login form are displayed in English",
                                               "Environment":"All browsers / devices",
                                               "Severity":"Major",
                                               "Steps to reproduce": [
@@ -80,9 +80,9 @@ JSON
                                               "2. Follow Inloggen link",
                                               "3.Fill required fields with invalid data",
                                               "4.Click Inloggen button",
-                                              "5.Pay attention to error messages", ]
+                                              "5.Pay attention to error messages" ],
                                               "Actual result":"Error messages in the login form are displayed in English",
-                                              "Expected result":"Error messages in the login form are displayed in the chosen language"
+                                              "Expected result":"Error messages in the login form are displayed in the chosen language",
                                               "Attachment":"http://prntser.com/k905cq" }
 
 
@@ -120,7 +120,8 @@ XML
                                                      <age>36</age>
                                                      <animal>0</animal>
                                                      <salary>400</salary>
-                                               </user>
+                                                     </user>
+                                               </users>
 
  28. Отправить изменения на внешний репозиторий. == git commit -m "add  new.xml fail" --> git add .--> git push
 
@@ -129,6 +130,7 @@ XML
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить)
 
  в формате XML. == vim preferences.xml == <users>
+                                                <user name="Ivan">
                                                 <muvie>Terminator<muvie>
                                                 <favorite TV series>supernatural<favorite TV series>
                                                 <favorite food>plov<favorite food>
